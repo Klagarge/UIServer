@@ -7,7 +7,7 @@ package ch.hevs.synd.sin;
  */
 public class UIConstants {
     /** Defining the default port number to be used. */
-    public static final int		UI_SERVER_PORT			    = 1502;
+    public static final int		UI_SERVER_PORT			    = 1515; //1502;
     public static final int     UI_BUFFER_MAX_SIZE          = 256;
 
     /** Messages for DatagramSocket examples */

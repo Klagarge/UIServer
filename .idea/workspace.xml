@@ -7,10 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="028e861c-982b-48af-abd9-036e0fbebabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/hevs/synd/sin/stream/UIClientTCP.java" afterDir="false" />
+    <list default="true" id="028e861c-982b-48af-abd9-036e0fbebabe" name="Default Changelist" comment="ex1-2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/hevs/synd/sin/stream/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/hevs/synd/sin/stream/ServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/hevs/synd/sin/network/server/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/hevs/synd/sin/network/server/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/hevs/synd/sin/UIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/hevs/synd/sin/UIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/hevs/utils/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/hevs/utils/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task1">
+  <component name="RunManager" selected="Application.Server">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -71,6 +73,19 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hevs.synd.sin.stream.Server" />
+      <module name="UIServerStudents" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hevs.synd.sin.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,7 +107,13 @@
     <list>
       <item itemvalue="Application.Task2" />
       <item itemvalue="Application.Task1" />
+      <item itemvalue="Application.Server" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,6 +128,14 @@
       <workItem from="1639476893616" duration="41000" />
       <workItem from="1639648924592" duration="247000" />
     </task>
+    <task id="LOCAL-00001" summary="ex1-2">
+      <created>1673337087163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673337087163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +151,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ex1-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex1-2" />
   </component>
 </project>

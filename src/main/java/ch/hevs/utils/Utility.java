@@ -10,6 +10,9 @@ import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Random;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
 
 /**
  * This class contains some useful Java methods to manipulate data.
